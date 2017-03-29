@@ -17,13 +17,6 @@ env:
 
 matrix:
     fast_finish: true
-    include:
-      - python: "3.3"
-        env: DJANGO=1.8
-      - python: "3.6"
-        env: DJANGO=1.11
-      - python: "3.6"
-        env: DJANGO=master
     exclude:
       - python: "2.7"
         env: DJANGO=master
